@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ABenHmida\\source\\repos\\Authentication\\Basics\\Basics.csproj": {}
+    "C:\\Users\\ABenHmida\\Desktop\\AspNetCoreAuthentication\\Basics\\Basics.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ABenHmida\\source\\repos\\Authentication\\Basics\\Basics.csproj": {
+    "C:\\Users\\ABenHmida\\Desktop\\AspNetCoreAuthentication\\Basics\\Basics.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ABenHmida\\source\\repos\\Authentication\\Basics\\Basics.csproj",
+        "projectUniqueName": "C:\\Users\\ABenHmida\\Desktop\\AspNetCoreAuthentication\\Basics\\Basics.csproj",
         "projectName": "Basics",
-        "projectPath": "C:\\Users\\ABenHmida\\source\\repos\\Authentication\\Basics\\Basics.csproj",
+        "projectPath": "C:\\Users\\ABenHmida\\Desktop\\AspNetCoreAuthentication\\Basics\\Basics.csproj",
         "packagesPath": "C:\\Users\\ABenHmida\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ABenHmida\\source\\repos\\Authentication\\Basics\\obj\\",
+        "outputPath": "C:\\Users\\ABenHmida\\Desktop\\AspNetCoreAuthentication\\Basics\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
